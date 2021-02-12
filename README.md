@@ -1,12 +1,57 @@
 # Study for Go Beginner
 
-Go의 경우, 지정된 경로에서만 코드를 돌릴 수 있다.
+### Go tutorial
+
+Go의 경우, 지정된 경로에서 go 코드를 작성해야한다
 
 > Go PATH
 >
-> Mac : usr/local/go
+> Mac : usr/local/go OR **~/go**
+>
+> (bin pkg src 이 있는 디렉토리, src가 없다면 src 파일 만들기)
 >
 > Windows : C:\Go
+
+
+
+1. 소스코드가 들어갈 디렉토리 만들기 in ~/go/src/
+
+```
+mkdir temp.com
+```
+
+
+
+2. tracking dependencies 위한 새 모듈 init
+
+```
+cd temp.com
+go mod init temp.com
+```
+
+
+
+3. 소스코드 작성하기 - main.go
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello, World!")
+}
+```
+
+
+
+4. 실행하기
+
+```
+go run .
+```
+
+
 
 
 
@@ -27,6 +72,12 @@ Mac 에서 vscode .code 명령어 실행
 > Shell Command : install 'code' command in PATH 검색해 install
 >
 > 현재 경로에서 vscode를 열 수 있다.
+
+```
+. code
+```
+
+
 
 
 
