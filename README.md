@@ -127,11 +127,6 @@ name = "z" // 가능
 name := "y"  
 ```
 
-### array
-```go
-name []
-```
-
 
 
 
@@ -218,6 +213,19 @@ func superAdd(numbers ...int){
 func superAdd(numbers ...int) {
   for _, number := range numbers{ //_는 index
     total+=number
+  }
+}
+```
+
+
+
+> while 이용 -> 따로 없음
+
+```go
+func main(){
+  for{
+    fmt.Println("loop")
+    return // break 대신 종료문
   }
 }
 ```
