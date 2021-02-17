@@ -127,7 +127,10 @@ name = "z" // 가능
 name := "y"  
 ```
 
-
+### array
+```go
+name []
+```
 
 
 
