@@ -30,6 +30,21 @@ func isHappy(n int) bool {
 
 
 
+### while문 
+
+```go
+for {
+  sum += 1
+  if sum ==1 {
+    return 
+  }
+}
+```
+
+
+
+
+
 ### 동적 배열 선언과 요소 추가
 
 ```go
