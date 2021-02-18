@@ -10,7 +10,7 @@ Go의 경우, 지정된 경로에서 go 코드를 작성해야한다
 >
 > (bin pkg src 이 있는 디렉토리, src가 없다면 src 파일 만들기)
 >
-> Windows : C:\Go
+> Windows : C:\Program Files\Go
 
 
 
