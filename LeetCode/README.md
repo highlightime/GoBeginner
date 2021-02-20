@@ -6,3 +6,7 @@
 
 ### [231. Power of Two](https://leetcode.com/problems/power-of-two/)(2021.2.18)_100%,100%
 
+### [112. Path Sum](https://leetcode.com/problems/path-sum/)(2021.2.20)_94%,23%
+
+
+
