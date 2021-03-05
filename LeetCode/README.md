@@ -8,4 +8,7 @@
 
 ### [112. Path Sum](https://leetcode.com/problems/path-sum/)(2021.2.20)_94%,23%
 
-### 204. 
+### [204. Count Primes](https://leetcode.com/problems/count-primes/)(2021.2.23)_100%,31%
+
+### [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)(2021.3.5)_100%,100%
+
